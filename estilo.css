@@ -1,0 +1,112 @@
+/* estilo.css */
+
+/* Plano de fundo */
+body {
+    background-color: #E9EEED; /* Cinza claro */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Cabeçalho */
+header, .header {
+    background-color: #61ADAD; /* Azul esverdeado */
+    color: #FBFCFB; /* Branco */
+    padding: 10px 0;
+}
+
+/* Navegação */
+.navbar, .navbar-default {
+    background-color: #E1B777; /* Bege claro */
+    border-color: #E1B777; /* Bege claro */
+}
+
+.navbar a {
+    color: #FBFCFB; /* Branco */
+}
+
+.navbar a:hover {
+    color: #D65652; /* Vermelho */
+}
+
+/* Botões */
+button, .btn {
+    background-color: #D65652; /* Vermelho */
+    color: #FBFCFB; /* Branco */
+    border: none;
+}
+
+button:hover, .btn:hover {
+    background-color: #E1B777; /* Bege claro */
+}
+
+/* Links */
+a {
+    color: #61ADAD; /* Azul esverdeado */
+}
+
+a:hover {
+    color: #D65652; /* Vermelho */
+}
+
+/* Rodapé */
+footer, .footer {
+    background-color: #333; /* Preto */
+    color: #FBFCFB; /* Branco */
+    padding: 20px 0;
+}
+
+/* Seções */
+section {
+    background-color: #E9EEED; /* Cinza claro */
+    color: #333; /* Cor do texto principal */
+    padding: 20px 0;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #61ADAD; /* Azul esverdeado */
+}
+
+/* Parágrafos */
+p {
+    color: #333; /* Cor do texto principal */
+}
+
+/* Formulários */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    border: 1px solid #61ADAD; /* Azul esverdeado */
+    color: #333; /* Cor do texto */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #D65652; /* Vermelho */
+}
+
+/* Tabelas */
+table {
+    border-color: #61ADAD; /* Azul esverdeado */
+}
+
+th {
+    background-color: #E1B777; /* Bege claro */
+    color: #FBFCFB; /* Branco */
+}
+
+td {
+    color: #333; /* Cor do texto */
+}
+
+/* Outros elementos */
+.card, .panel {
+    background-color: #FBFCFB; /* Branco */
+    border: 1px solid #E1B777; /* Bege claro */
+}
+
+.card-header, .panel-heading {
+    background-color: #61ADAD; /* Azul esverdeado */
+    color: #FBFCFB; /* Branco */
+}
+
+
+h2{
+    color: #333;
+}
